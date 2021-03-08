@@ -34,17 +34,23 @@ ul li a{
 <nav>
   <ul>  <!-- making the menu-->
     <li><a href="ITB.html">Home</a></li>
-    <li><a href="#">Specification</a></li>
+    <li><a href="ITB_specification.html">Specification</a></li>
     <li><a href="ITB2.html">Register</a></li>
   </ul>
 </nav>
-<!-- Adding the image -->
-<img src = "IMG.jpg"  height = 50% width = 50% class="center">
+
 
 <!-- let me somebody know if u still want this button or if it is enugh in menu-->
-<form method="POST" action="ITB2.html">
-  <button>Register</button>
-
+<form action="ITB.php" method="POST">
+    <div>
+    <label>First and Last Name:</label><br>
+    <input type="text" name="name"><br>
+    <label>Username:</label><br>  
+    <input type="text" name="username"><br>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br>
+    <input type="submit" value="submit" name = "submit" id="submit" formaction="ITB2.html">
+    </div>
 </form>
 
 </body>
